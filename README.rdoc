@@ -1,6 +1,14 @@
 = whatismyip
 
-Description goes here.
+Check your public and local ip address right from the command-line. Simply type 'whatismyip'.
+
+== Install
+
+  gem install whatismyip
+  
+== Usage
+
+  $ whatismyip
 
 == Note on Patches/Pull Requests
  

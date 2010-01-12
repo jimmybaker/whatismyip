@@ -5,12 +5,14 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "whatismyip"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{The simple way to check your ip addresses from the command line.}
+    gem.description = %Q{Lets you check your ip address by simply}
     gem.email = "jimmybaker@me.com"
     gem.homepage = "http://github.com/jumzies/whatismyip"
     gem.authors = ["Jimmy Baker"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
+    gem.add_dependency "nokogiri", ">=0"
+    gem.post_install_message = "Now simply type 'whatismyip'.."
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
