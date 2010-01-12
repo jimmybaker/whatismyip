@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors = ["Jimmy Baker"]
   s.date = %q{2010-01-11}
   s.default_executable = %q{whatismyip}
-  s.description = %q{Lets you check your ip address by simply}
+  s.description = %q{Lets you check your public and local ip addresses by simply typing 'whatismyip' on the command-line}
   s.email = %q{jimmybaker@me.com}
   s.executables = ["whatismyip"]
   s.extra_rdoc_files = [
@@ -37,7 +37,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{The simple way to check your ip addresses from the command line.}
+  s.summary = %q{The simple way to check your ip addresses from the command line}
   s.test_files = [
     "spec/spec_helper.rb",
      "spec/whatismyip_spec.rb"

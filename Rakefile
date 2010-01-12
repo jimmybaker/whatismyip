@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "whatismyip"
-    gem.summary = %Q{The simple way to check your ip addresses from the command line.}
-    gem.description = %Q{Lets you check your ip address by simply}
+    gem.summary = %Q{The simple way to check your ip addresses from the command line}
+    gem.description = %Q{Lets you check your public and local ip addresses by simply typing 'whatismyip' on the command-line}
     gem.email = "jimmybaker@me.com"
     gem.homepage = "http://github.com/jumzies/whatismyip"
     gem.authors = ["Jimmy Baker"]
