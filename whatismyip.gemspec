@@ -24,10 +24,13 @@ Gem::Specification.new do |s|
      "LICENSE",
      "README.rdoc",
      "Rakefile",
+     "VERSION",
+     "bin/whatismyip",
      "lib/whatismyip.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb",
-     "spec/whatismyip_spec.rb"
+     "spec/whatismyip_spec.rb",
+     "whatismyip.gemspec"
   ]
   s.homepage = %q{http://github.com/jumzies/whatismyip}
   s.post_install_message = %q{Now simply type 'whatismyip'..}
