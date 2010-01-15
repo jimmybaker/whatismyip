@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{whatismyip}
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jimmy Baker"]
-  s.date = %q{2010-01-11}
+  s.date = %q{2010-01-15}
   s.default_executable = %q{whatismyip}
   s.description = %q{Lets you check your public and local ip addresses by simply typing 'whatismyip' on the command-line}
   s.email = %q{jimmybaker@me.com}
